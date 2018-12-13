@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.szlangpai.myijkplayer.MainActivity">
+
+    <!--<cn.jzvd.JzvdStd-->
+        <!--android:id="@+id/videoplayer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="270dp"/>-->
+    
+    <com.szlangpai.myijkplayer.VideoPlayerIJK
+        android:id="@+id/videoPlayerIJK"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+    </com.szlangpai.myijkplayer.VideoPlayerIJK>
+
+</RelativeLayout>
